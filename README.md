@@ -42,7 +42,7 @@ from django.utils.http import urlsafe_base64_decode
 
 # Create your views here.
 
-####### Fonction d'affichage et de traitement de données en cas de post du formulaire d'inscripption ###############
+####### Fonction de recuperation et de traitement des données en cas de post ###############
 def inscription(request):
     message = ""
     if request.method == 'POST':
